@@ -7,7 +7,7 @@ fail_fast: false
 # @see http://pre-commit.com/
 repos:
   - repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: master
+    rev: 9ce6b9facb1a8b392c7fd2e89d6f89a661a41d83
     hooks:
       - id: check-yaml
         files: .(yaml|yml)$
